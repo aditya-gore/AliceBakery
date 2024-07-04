@@ -10,10 +10,6 @@ public class CakeBaker {
     Frosting fr;
     @Autowired
     Syrup sr;
-    public CakeBaker(Frosting fr, Syrup sr) {
-        this.fr = fr;
-        this.sr = sr;
-    }
     public void bakeCake() {
         System.out.println("The cake is being baked!");
         System.out.println("Flavor: " + fr.getFrostingType());
